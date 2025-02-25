@@ -20,7 +20,7 @@ siteStream:
     - instagramHandle
     - linkedInUrl
     - pinterestUrl
-    - tiktokUrl
+    - tikTokUrl
     - youTubeChannelUrl
     - copyrightMessage
   localization:
