@@ -6,6 +6,26 @@ buildConfiguration:
       - package.json
       - package-lock.json
       - .npmrc
+siteStream:
+  id: site
+  entityId: site-152836
+  fields:
+    - name
+    - logo
+    - favicon
+    - header
+    - footer
+    - twitterHandle
+    - facebookPageUrl
+    - instagramHandle
+    - linkedInUrl
+    - pinterestUrl
+    - tiktokUrl
+    - youTubeChannelUrl
+    - copyrightMessage
+  localization:
+    locales:
+      - en
 livePreviewConfiguration:
   setupCommand: ":"
 # authentication:
