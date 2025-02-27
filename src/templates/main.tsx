@@ -92,11 +92,6 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
 const Main: Template<TemplateRenderProps> = (props) => {
   const { document } = props;
 
-  // temporary: guard for generated repo-based static page
-  if (!document?.__?.layout) {
-    return <></>;
-  }
-
   return (
     <AnalyticsProvider
       apiKey={document?._env?.YEXT_PUBLIC_EVENTS_API_KEY}
